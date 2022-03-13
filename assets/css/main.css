@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 *,
 *::before,
 *::after {
@@ -16,17 +17,25 @@ ol[role=list] {
   list-style: none;
 }
 
+body {
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  max-width: 345px;
+  background-color: #14253d;
+  padding: 1em;
+  border-radius: 15px;
+}
+.card__img img {
+  width: 100%;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.card {
-  max-width: 345px;
-}
-.card__img img {
-  width: 100%;
 }/*# sourceMappingURL=main.css.map */
